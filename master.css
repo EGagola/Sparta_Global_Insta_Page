@@ -71,7 +71,7 @@ h6 {
   border: #e6e6e6 1px solid;
 }
 .form {
-  width: 50%;
+  width: 350px;
   height: 900px;
   margin-top: 30px;
   margin-left: 1%;
@@ -222,7 +222,7 @@ h6 {
     justify-content: center;
   }
   .form{
-    width: 80%;
+    width: 70%;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -235,6 +235,7 @@ h6 {
     margin-left: 20%;
     margin-right: 20%;
     text-align: justify;
+    text-align: center;
   }
   .footer-cp {
     width: 60%;
@@ -247,8 +248,11 @@ h6 {
   .imagechange img {
     right: 2%;
   }
+  .form {
+    width: 80%;
+  }
   .topbox {
-    width: 150%;
+    width: 1200px;
     align-self: center;
   }
 }
