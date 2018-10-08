@@ -50,13 +50,69 @@ h6 {
   margin-left: 50%;
 }
 @keyframes flickerAnimation { /* flame pulses */
-  0%   { opacity:1; }
-  50%  { opacity:0; }
-  100% { opacity:1; }
+  0%   { opacity:0; }
+  16%  { opacity:1; }
+  33%  { opacity:0; }
+  49%  { opacity:0; }
+  66%  { opacity:0; }
+  83%  { opacity:0; }
+  100% { opacity:0; }
 }
 #animate-flicker {
     opacity:1;
-    animation: flickerAnimation 5s infinite;
+    animation: flickerAnimation 20s infinite;
+}
+@keyframes flickerAnimation2 { /* flame pulses */
+  0%   { opacity:0; }
+  16%  { opacity:0; }
+  33%  { opacity:1; }
+  49%  { opacity:0; }
+  66%  { opacity:0; }
+  83%  { opacity:0; }
+  100% { opacity:0; }
+}
+#animate-flicker2 {
+    opacity:1;
+    animation: flickerAnimation2 20s infinite;
+}
+@keyframes flickerAnimation3 { /* flame pulses */
+  0%   { opacity:0; }
+  16%  { opacity:0; }
+  33%  { opacity:0; }
+  49%  { opacity:1; }
+  66%  { opacity:0; }
+  83%  { opacity:0; }
+  100% { opacity:0; }
+}
+#animate-flicker3 {
+    opacity:1;
+    animation: flickerAnimation3 20s infinite;
+}
+@keyframes flickerAnimation4 { /* flame pulses */
+  0%   { opacity:0; }
+  16%  { opacity:0; }
+  33%  { opacity:0; }
+  49%  { opacity:0; }
+  66%  { opacity:1; }
+  83%  { opacity:0; }
+  100% { opacity:0; }
+}
+#animate-flicker4 {
+    opacity:1;
+    animation: flickerAnimation4 20s infinite;
+}
+@keyframes flickerAnimation5 { /* flame pulses */
+  0%   { opacity:0; }
+  16%  { opacity:0; }
+  33%  { opacity:0; }
+  49%  { opacity:0; }
+  66%  { opacity:0; }
+  83%  { opacity:1; }
+  100% { opacity:0; }
+}
+#animate-flicker5 {
+    opacity:1;
+    animation: flickerAnimation5 20s infinite;
 }
 .right {
   display: flex;
